@@ -2,6 +2,16 @@
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Pass Server Data Directly to a Next.js Page during SSR
+
+Extract and inline critical css with
+[emotion](https://github.com/emotion-js/emotion/tree/master/packages/emotion),
+[emotion-server](https://github.com/emotion-js/emotion/tree/master/packages/emotion-server),
+[@emotion/core](https://github.com/emotion-js/emotion/tree/master/packages/core),
+and [@emotion/styled](https://github.com/emotion-js/emotion/tree/master/packages/styled).
+
+
+
 ## Getting Started
 
 First, run the development server:

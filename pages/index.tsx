@@ -11,7 +11,7 @@ const Home = () => {
     return (
         <React.Fragment>
             <Container>
-                <h1>Home</h1>
+                <h1>Next js Boilerplate</h1>
             </Container>
         </React.Fragment>
     );
