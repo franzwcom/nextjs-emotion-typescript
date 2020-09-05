@@ -2,21 +2,21 @@
 import React from 'react';
 import { BaseCss } from '@pomegranate-ui/base-css';
 // import { jsx, Global, css } from '@emotion/core';
+
 import { CacheProvider } from '@emotion/core';
 // Use only { cache } from 'emotion'. Don't use { css }.
-import { cache } from 'emotion'
+import { cache } from 'emotion';
 
 function MyApp({ Component, pageProps }) {
-    return (
-        <React.Fragment>
-            
-            <CacheProvider value={cache}>
-                 <BaseCss />
-                <Component {...pageProps} />
-            </CacheProvider>
-        </React.Fragment>
-    )
-    // return <Component {...pageProps} />
+	return (
+		<React.Fragment>
+			<CacheProvider value={cache}>
+				<BaseCss />
+				<Component {...pageProps} />
+			</CacheProvider>
+		</React.Fragment>
+	)
+	// return <Component {...pageProps} />
 }
 
 {/* <Component {...pageProps} /> */ }
